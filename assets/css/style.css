@@ -1,0 +1,119 @@
+/* need to get project-items to fit across x-axis and stretch; then optimize for mobile? */
+/* would like background color to change when hovering over and enlarge itselfif possible, would i need to specify .portfolio-item h3:hover yadda yadda? */
+
+
+* {
+    font-family:"Fira Code"; 
+    color: #656839;
+    background-color: #cbc9ad; 
+}
+
+header {
+    padding: 10px; 
+    text-align:right; 
+    font-size:large; 
+}
+
+h1 {
+    font-size:xx-large; 
+}
+
+h2 {
+    font-size:x-large;
+    color:#25283d;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+nav {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+nav a {
+    color:#25283d; 
+    font-size: larger;
+    font-weight: 600; 
+    padding: 10px; 
+    text-align:center; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:#25283d ;
+    color: #bddbd0
+}
+
+.aboutme-text {
+    font-size: larger;
+
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 250px;
+}
+
+.about {
+    text-align: center;
+}
+
+.portfolio {
+    display: flex; 
+    align-items: center;   
+    text-align: center; 
+    font-size: small;
+    align-items: stretch;
+}
+
+.portfolio-item {
+    border: 5px solid #656839;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.portfolio-item:hover {
+ /*NEEDS TO BECOME LARGER WHEN HOVERING OVER*/  
+    font-weight: 800;
+    border-style: dashed;
+    background-color: #bddbd0;
+
+}
+
+.portfolio-item h3 {
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.portfolio-photo {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+footer {
+ 
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-item {
+    padding: 5px; 
+    display: inline;
+}
+
+.contact-item:hover {
+    font-weight: 800;
+}
+
