@@ -27,8 +27,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Screenshots
 
 For easier updating, 4 additional placeholder containers have been set up to be both simultaneously conformed as a class as well as be individually customized on an as-needed basis. 
-<img src="./assets/images/READMEscreenshot1">
-<img src="./assets/images/READMEscreenshot2">
+<img src="./assets/images/READMEscreenshot1.png">
+<img src="./assets/images/READMEscreenshot2.png">
 
 ## Deployment
 
