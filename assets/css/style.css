@@ -91,8 +91,12 @@ nav a:hover {
     padding: 5px; 
 }
 
+.portfolio-photo-1 {
+    max-height: 300px;
+}
+
 .portfolio-photo:hover {
-    max-height: 250px;
+    max-height: 400px;
 }
 
 .contact-container {
